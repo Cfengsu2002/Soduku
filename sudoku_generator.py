@@ -261,6 +261,7 @@ def generate_sudoku(size, removed):
     board = sudoku.get_board()
     return [origninalBoard,board]
 
+
 # Create an instance of SudokuGenerator
 
 # Generate the Sudoku board

@@ -217,7 +217,7 @@ def createGameLoop(numberOfRemovedCells: int = 1) -> None:
     exit_image = pygame.image.load('Exit.jpg').convert_alpha()
     restart_image = pygame.image.load('Restart.jpg').convert_alpha()
 
-    reset_image = pygame.image.load('restart.jpg').convert_alpha()
+    reset_image = pygame.image.load('reset.jpg').convert_alpha()
     # button class
     # create button instances
     y_height = HEIGHT - 60
